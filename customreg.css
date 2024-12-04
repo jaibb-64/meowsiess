@@ -1,0 +1,41 @@
+/* custommeowies.css */
+
+/* Styling the body */
+body {
+    border-radius: 50px;
+    background-color: rgb(255, 240, 245);
+    box-shadow: 20px 20px 60px #d9ccd0, -20px -20px 60px #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: scroll;
+    color: rgb(227, 193, 226);
+}
+
+/* Center container for the form and logo */
+.reg {
+    text-shadow: 1px 1px 1px #694f7084;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50px; /* Rounded corners around the logo and form */
+    background: linear-gradient(145deg, #ffffff, #e6d8dd); /* Gradient background */
+    box-shadow: 15px 15px 29px #d9ccd0, -15px -15px 29px #ffffff; /* Subtle shadow around the container */
+    padding: 30px; /* Padding to give some space around the content */
+    border: 2px solid #d9ccd0; /* Smaller border around the container */
+}
+
+/* Form styling */
+form {
+    background-color: cornsilk;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Styling for the logo image */
+img {
+    padding-bottom: 1px;
+    padding-top: 1px;
+    width: 300px;
+    height: 300px;
+}

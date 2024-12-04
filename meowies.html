@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!-- NOTES: 
+ <html> - declares that this is a html project
+ <head> - declares the head of the website
+ <title> - declares the title of the website
+ <body> - declares the body of the website, where paragraphs and other stuff go
+ <h1> - used to input head text
+ <p> - used to input paragraphs     
+ <br> - used to break/new line in a paragraph 
+ 
+ ATTRIBUTES 
+    href = attribute name
+    w3schools = attribute value
+    <a> </a> - link
+
+ <a href = "https://www.w3schools.com">
+    src attribute = source , used with <img> tag
+    <img> - used for imae links
+    <img src = "link.jpg" width = "500" height = "500" >
+    <style> - used for style,font etc, used with css
+        style ="background-color:____"- sets bg color
+        <html lang = "language"> -lang declares language    
+        style="font-family"- defines font to be used
+        style="text-align" - either centers,left, right or justifies text
+
+    <b>- bold text
+    <strong>(displayed as bold) - Important text
+    <i>- italic text
+    <em>(displayed in italics) - emphasized text
+    <mark>- marked text
+    <small>- small text
+    <del>- deleted text
+    <ins>- inserted text
+    <sub> - subscript text
+    <sup>- supersubscript text  
+
+    u can use rgb or hex ( #000000) to get colours, rgba-saturation values
+    internal css defined in the head
+              
+LINKS
+
+<a href="link.com/html" - used for links
+target="">Websitename</a> -for 
+ ______"_self"Websitename</a>- opens link in same window
+        _parent - opens in parent frame
+        _top - opens linked document in full body window
+        <iframe name="" </iframe> - opens in framed name
+            title attribute can be used to add a title
+            can define <img> within a link
+
+
+IMAGES
+
+            -has no close tag, so <img src>
+            alt ie <img src = "image.jpg" alt = "desribe image"> - offers an alternative image
+            width and height attribute
+           //<img... style = "width:0px; height:0px:">
+       
+       
+TABLES
+            <table> to define table
+                <tr> - define rows 
+                    <td> - columns
+                        <th>- headings for columns
+            define a border by 
+            <style>
+                table,th,td {
+                border: 0px solid colour;
+                }
+            </style>
+
+            border-collapse - to add a single lined border 
+            <thcolspan/rowspan="0"> - to merge cells over many cells
+
+LISTS
+            Ordered lists (letters, numbers)                         Unordered (bullet markers)
+            <ol> </ol>- ordered list
+            <li> </li>- listed item
+            style ="list-style-type:__"> - changes the listing(numbers into letters)
+            alpha, roman
+
+            <ul> </ul> - unordered lists
+
+DISPLAY TYPES
+            block 
+            inline 
+            
+            BLOCK
+                - stretch out on entire page
+                - start on a new line
+                ie, heading, tables, paragraphs, div...
+
+            INLINE
+                -take only required/necessary space
+                hyperlinks, images , buttons (<button>) <span> etc
+
+deined within <> ,class attribute groups elements
+ie <p class = "my-group"> words </p>
+defined by .nameof-class
+
+
+ID attribute- used to get a specific element
+- use #nameoftag
+- case sensitive
+
+Iframes- used to display a webpage within a webpage
+<iframe>
+    border: none- removes border
+
+
+<meta data - data about data within head , defines doc title, script, style etc
+<title- diplayed in browser tab,
+
+
+FORMS
+        <form> -creates a form
+            <input>- to input text
+                <input type = "text" name ="fname">
+                <input type= "checkbox" name = "vehicle1"
+                    value ="Bike" checked> Ihave bike <br>
+
+                <input type ="radio" name "sex"
+                value = "male" checked> Male
+           
+           <select> - displays a list of dropped down items, ie selecting dob
+            <textarea> - textbox 
+                <input type ="submit"> - button to say done
+           
+                -->
+ 
+<html lang = "en"> 
+<head> 
+    <title>My first project </title> 
+</head>
+<style>
+body {background-color: rgba(238, 193, 192, 0.351);
+       p {
+            colour:pink;
+       }}
+       </style>
+    <h1 style="color: burlywood;text-align: center;"> MEOWIES</h1>
+
+    <h2 style="text-align: center;color: burlywood;border: 2px solid rgba(237, 141, 153, 0.945);background-color: blanchedalmond;"><strong> WELCOME TO MEOWIES</strong></h2>
+    <form>
+        <a href="file:///C:/Users/gontl/OneDrive/Documents/Jai's%20silly%20projects/login.html">
+        <input type="button" name  = "bname"
+            value="Login" checked> login pls :3 <br>
+    </a>
+    </form>
+    
+    <a href="https://www.pinterest.com/xenonsutopia/">
+    <img src ="c:\Users\gontl\Downloads\Manhwa art_ semi realism _jelly artstyle_.jpg" width="300" height="300"/> 
+    </a>
+    <p style="text-align: left;"><i style="color: burlywood;">Hello nyan^^ <br> This is a test, welcome to my website.<br>
+    I'm severly burnout, I wish I was thriving academically. <br>I used to be the gifted kid, then again even at highschool ,i was in the top 5 in my class but that was never enough. <br> 
+I genuinely wish I wasn't falling behind.<br> I cant even spell right , I just might cry wtf but um, here's my progress. <br> Hope you like it!! </i></p>
+<h3> Can i get a break...
+    <p><b> I WILL JUMP DAMMIT</b></p>
+    
+    <img src ="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzRpNmJudW5pbGwwZmtkZjZ3d3h2ZmV5Ym43N3l5M2s0bDJuN2JmMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fqTl8YsjVPm7bjBJTT/giphy.gif" alt = "sad cat"
+                style = width:48px;height:48px;
+            
+            
+            </h3>
+    <h4><style>
+        table, th, td {
+            border: 1px solid rgba(238, 193, 192, 0.351);
+            background-color: bisque;
+            color: rgb(131, 72, 85);
+        }
+    </style><table style = "width:100%">
+            <tr>
+                <th>Likes</th>
+                <th>Dislikes</th>
+            </tr>
+            <tr>
+                <td>Cats</td>
+                <td>Bananas</td>
+            </tr>
+            <tr>
+                <td>Quiet places</td>
+                <td>Loud people</td>
+            </tr>
+
+    </table></h4>
+
+</body>
+
+</html>
